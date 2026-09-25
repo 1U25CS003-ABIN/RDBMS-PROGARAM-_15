@@ -1,6 +1,6 @@
 SET SERVEROUTPUT ON;
 DECLARE
-marks NUMBER := 65;
+    marks NUMBER := 65;
 BEGIN
     IF marks &gt;= 40 THEN
       DBMS_OUTPUT.PUT_LINE(&#39;Student has Passed&#39;);
